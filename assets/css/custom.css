@@ -1,0 +1,245 @@
+
+
+/*----------Sticky Footer-----------*/
+
+footer.sticky-footer {
+     background-color: #131a22;
+     padding: 15px;
+     margin-left: 225px;
+}
+ footer.sticky-footer .copyright {
+     line-height: 1;
+     font-size: 0.8rem;
+}
+ body.sidebar-toggled footer.sticky-footer {
+     width: 100%;
+}
+ @media (min-width: 768px) {
+     body.sidebar-toggled footer.sticky-footer {
+         width: calc(100% - 90px);
+         margin-left: 90px;
+    }
+}
+
+footer.sticky-footer {
+        margin-left: 0px;
+    }
+.sidebar-toggled footer.sticky-footer {
+        margin: 0;
+    }
+
+.footer-list .mb-0 {
+    margin: 7px 0 0;
+}
+.footer-logo {
+    margin: 0 0 51px !important;
+}
+ .app img {
+     background: #231f20 none repeat scroll 0 0;
+     border-radius: 3px;
+     height: 38px;
+     margin: 5px 0 0;
+     object-fit: scale-down;
+     padding: 3px 4px;
+}
+
+.footer-list .app img {
+    height: 28px;
+}
+.footer-list {
+    padding: 20px 0;
+}
+.footer-list ul {
+    margin: 0;
+    padding: 0;
+}
+.footer-list ul li {
+    list-style: outside none none;
+}
+.footer-list ul li a {
+    color: #5a5c69;
+    line-height: 23.9px;
+}
+.footer-list ul li a:hover {
+    color: #ffc107;
+}
+.footer-list .mb-0 {
+    margin: 7px 0 0;
+}
+.footer-logo {
+    margin: 0 0 20px !important;
+}
+.footer-list h6 {
+        margin: 23px 3 10px !important;
+        color: #fff;
+    }
+
+
+/*-------- 6.2 Notify --------*/
+[data-notify="progressbar"] {
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 5px;
+}
+.customized_notify.alert-info{
+    text-align:left;
+    background-color:#fff;
+    width: 360px;
+    line-height: 1.4;
+    border:0;
+    color:#444;
+    padding:20px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1);
+}
+.customized_notify.alert-info h4{
+    color:#333;
+    font-size:14px;
+    margin: 5px 0 0 -4px !important;
+    text-transform:uppercase;
+    font-weight:700;
+    display: inline-block;
+}
+.customized_notify i span{
+    font-size:55px;
+    margin-bottom:0;
+    color:#6C6;
+    display:inline-block;
+}
+.customized_notify i span img{
+    border:5px solid #ededed;
+    width:80px;
+    height:auto;
+    margin-bottom: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.customized_notify {
+    padding-left: 80px!important;
+    min-height: 85px!important;
+}
+.customized_notify p{
+    margin: 0!important;
+}
+
+.customized_notify a{
+    color: #444;
+}
+
+.customized_notify figure{
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     position: absolute;
+     left: 15px;
+     top: 15px;
+     border:2px solid #ededed;
+}
+.customized_notify figure img{
+    width: 55px;
+    height: auto;
+
+}
+
+.customized_notify .close {
+    font-weight: 500;
+    opacity: .2;
+}
+@media (max-width: 767px) {
+    .customized_notify {
+        display: none!important;
+    }
+}
+
+/*-----------Preloading------------*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 999999999;
+}
+
+.sk-spinner-wave.sk-spinner {
+    margin: -15px 0 0 -25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.ie8 .sk-spinner-wave.sk-spinner {
+    display: none;
+}
+
+.sk-spinner-wave div {
+    background-color: #ccc;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    -webkit-animation: sk-waveStretchDelay 1.2s infinite ease-in-out;
+    animation: sk-waveStretchDelay 1.2s infinite ease-in-out;
+}
+
+.sk-spinner-wave .sk-rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+}
+
+.sk-spinner-wave .sk-rect3 {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+}
+
+.sk-spinner-wave .sk-rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+
+.sk-spinner-wave .sk-rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-waveStretchDelay {
+    0%, 40%, 100% {
+        -webkit-transform: scaleY(0.4);
+        transform: scaleY(0.4);
+    }
+    20% {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+    }
+}
+
+@keyframes sk-waveStretchDelay {
+    0%, 40%, 100% {
+        -webkit-transform: scaleY(0.4);
+        transform: scaleY(0.4);
+    }
+    20% {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+    }
+}
+
+.laptop {
+    margin: auto;
+    margin-top: 20px;
+}
