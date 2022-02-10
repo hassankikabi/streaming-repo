@@ -36,7 +36,8 @@ a {
 }
 
 .sidebar-dark {
-  background: #232f3e;
+  /*background: #232f3e;*/
+  background: linear-gradient(75.7deg, rgb(0, 128, 0) 3.8%, rgb(0, 100, 0) 87.1%);
 }
 
 .topbar {

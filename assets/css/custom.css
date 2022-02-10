@@ -43,9 +43,56 @@ color: black!important;
 }
 
 
-/* ----------------------------------------------------------------
+
+/*----------------------------------------------------------------
     Buttons End
 -----------------------------------------------------------------*/
+
+
+
+
+
+
+
+.channel-sidebar-list {
+    border-top: 1px solid rgb(255 255 255 / 28%);
+    margin: 16px 0 0;
+    padding: 17px 14px 0 14px;
+}
+ .channel-sidebar-list h6 {
+     color: #fff;
+     font-size: 14px;
+     font-weight: 600;
+     margin-bottom: 15px;
+     margin-top: 9px;
+}
+ .channel-sidebar-list ul {
+     list-style: outside none none;
+     margin: 0;
+     padding: 0;
+}
+ .channel-sidebar-list ul li img {
+     border-radius: 50px;
+     height: 28px;
+     margin: 0 14px 0 0;
+     width: 28px;
+}
+ .channel-sidebar-list li a {
+     color: #fff;
+    display: inline-block;
+    overflow: hidden;
+    padding: 6px 0;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.channel-sidebar-list li a .badge {
+    float: right;
+    margin: 7px 0 0;
+    position: absolute;
+    right: 20px;
+}
 
 
 /*----------Sticky Footer-----------*/
@@ -407,3 +454,5 @@ footer.sticky-footer {
     background: #fff;
     color: #ffc107;
 }
+
+
