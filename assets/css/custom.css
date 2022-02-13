@@ -6,6 +6,7 @@
 .btn-info,
 .button,
 .btn_1,
+.badge-danger,
 .btn{
 background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
 border: 1px solid #a55d07;
@@ -33,6 +34,7 @@ font-family: inherit;
 .btn-info:hover,
 .button:hover,
 .btn_1:hover,
+.badge-danger:hover,
 .btn:hover{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23),
                 inset 0 -2px 5px 1px #b17d10,
@@ -124,50 +126,24 @@ color: black!important;
 }
 
 
+/* Mobile Media */
+/* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
 
-
-/*-------------Scholars Side Bar------------
-
-
-.channel-sidebar-list {
-    border-top: 1px solid rgb(255 255 255 / 28%);
-    margin: 16px 0 0;
-    padding: 17px 14px 0 14px;
-}
- .channel-sidebar-list h6 {
-     color: #fff;
-     font-size: 14px;
-     font-weight: 600;
-     margin-bottom: 15px;
-     margin-top: 9px;
-}
- .channel-sidebar-list ul {
-     list-style: outside none none;
-     margin: 0;
-     padding: 0;
-}
- .channel-sidebar-list ul li img {
-     border-radius: 50px;
-     height: 28px;
-     margin: 0 14px 0 0;
-     width: 28px;
-}
- .channel-sidebar-list li a {
-     color: #fff;
-    display: inline-block;
-    overflow: hidden;
-    padding: 6px 0;
-    text-decoration: none;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 100%;
-}
-.channel-sidebar-list li a .badge {
-    float: right;
-    margin: 7px 0 0;
-    position: absolute;
-    right: 20px;
-}*/
+    footer {
+        padding: 15px 0 !important;
+        text-align: center;
+    }
+     footer .text-right {
+         text-align: center !important;
+    }
+    footer.sticky-footer {
+        margin-left: 90px;
+    }
+    .footer-list h6 {
+        margin: 23px 0 10px !important;
+    }
+ }
 
 
 /*----------Sticky Footer-----------*/
@@ -213,9 +189,6 @@ footer.sticky-footer {
      padding: 3px 4px;
 }
 
-.footer-list .app img {
-    height: 28px;
-}
 .footer-list {
     padding: 20px 0;
 }

@@ -4852,7 +4852,7 @@ input[type="button"].btn-block {
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
-  font-size: 75%;
+  font-size: 100%;
   font-weight: 700;
   line-height: 1;
   text-align: center;
@@ -11152,16 +11152,4 @@ form.user .btn-user {
   animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
 
-footer.sticky-footer {
-  padding: 2rem 0;
-  flex-shrink: 0;
-}
 
-footer.sticky-footer .copyright {
-  line-height: 1;
-  font-size: 0.8rem;
-}
-
-body.sidebar-toggled footer.sticky-footer {
-  width: 100%;
-}
