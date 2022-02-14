@@ -28,7 +28,7 @@
       <!-- Custom styles for this template-->
       <link href="assets/css/bootstrap.min.css" rel="stylesheet">
       <link href="assets/css/style.css" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+      <link href="assets/css/custom.css" rel="stylesheet">
    </head>
    <body id="page-top">
 
@@ -52,12 +52,19 @@
          <!-- Sidebar -->
          <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar">
             <!-- Sidebar - Brand -->
+
             <a class="sidebar-brand d-flex align-items-center justify-content-start" href="index.html">
+               <div class="sidebar-brand-icon">
+                  <img src="assets/img/favicon/apple-touch-icon-57x57.png" alt="">
+               </div>
+               <div class="sidebar-brand-text mx-2"><img src="assets/img/logos/logo_word.png" alt=""></div>
+            </a>
+
+            <!--<a class="sidebar-brand d-flex align-items-center justify-content-start" href="index.html">
                <div class="sidebar-brand-icon">
                   <img src="assets/img/logos/logo_main.png" alt="">
                </div>
-               <!--<div class="sidebar-brand-text mx-3"><img src="assets/img/logo.png" alt=""></div>-->
-            </a>
+            </a>-->
 
 
             <!------------  Dashboard Menu   --------------->
@@ -118,6 +125,12 @@
 
             <li class="nav-item">
                <a class="nav-link" href="#">
+               <i class="fas fa-fw fa-image"></i>
+               <span>Gallery</span></a>
+            </li>
+
+            <li class="nav-item">
+               <a class="nav-link" href="#">
                <i class="fas fa-fw fa-user"></i>
                <span>About Us</span></a>
             </li>
@@ -151,75 +164,6 @@
                <i class="fas fa-fw fa-question"></i>
                <span>Asked Questions</span></a>
             </li>
-
-
-             <!--<li class="nav-item channel-sidebar-list">
-               <h6>POPULAR SCHOLARS</h6>
-               <ul>
-                  <li>
-                     <a href="subscriptions.html">
-                     <img class="img-fluid" alt="" src="assets/img/scholars/s1.png"> Your Life 
-                     </a>
-                  </li>
-                  <li>
-                     <a href="subscriptions.html">
-                     <img class="img-fluid" alt="" src="assets/img/scholars/s2.png"> Unboxing  <span class="badge badge-warning">2</span>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="subscriptions.html">
-                     <img class="img-fluid" alt="" src="assets/img/scholars/s3.png"> Product / Service  
-                     </a>
-                  </li>
-                  <li>
-                     <a href="subscriptions.html">
-                     <img class="img-fluid" alt="" src="assets/img/scholars/s4.png">  Gaming 
-                     </a>
-                  </li>
-               </ul>
-            </li>-->
-
-
-
-            <!-- Nav Item - Pages Collapse Menu -->
-            <!--<li class="nav-item">
-               <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-               <i class="fas fa-fw fa-pager"></i>
-               <span>Pages</span>
-               </a>
-               <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                  <div class="bg-white py-2 collapse-inner rounded">
-                     <h6 class="collapse-header">All Pages</h6>
-                     <a class="collapse-item" href="movies.html">Movies</a>
-                     <a class="collapse-item" href="movies-detail.html">Movie Detail</a>
-                     <a class="collapse-item" href="events.html">Events</a>
-                     <a class="collapse-item" href="events-detail.html">Event Detail</a>
-                     <a class="collapse-item" href="people.html">People</a>
-                     <a class="collapse-item" href="people-detail.html">People Detail</a>
-                     <a class="collapse-item" href="sports.html">Sports</a>
-                     <a class="collapse-item" href="sports-detail.html">Sport Detail</a>
-                  </div>
-               </div>
-            </li>-->
-
-            <!--<li class="nav-item">
-               <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-               <i class="fas fa-fw fa-clone"></i>
-               <span>Extra Pages</span>
-               </a>
-               <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                  <div class="bg-white py-2 collapse-inner rounded">
-                     <h6 class="collapse-header">Login Screens:</h6>
-                     <a class="collapse-item" href="login.html">Login</a>
-                     <a class="collapse-item" href="register.html">Register</a>
-                     <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
-                     <div class="collapse-divider"></div>
-                     <h6 class="collapse-header">Other Pages:</h6>
-                     <a class="collapse-item" href="404.html">404 Page</a>
-                     <a class="collapse-item" href="blank.html">Blank Page</a>
-                  </div>
-               </div>
-            </li>-->
          </ul>
          <!-------------- End of Dashboard Menu ------------->
 
@@ -232,6 +176,7 @@
 
 
                <!--------------- Topbar Start --------------->
+ 
                <nav class="navbar navbar-expand navbar-dark topbar mb-4 pl-0 static-top shadow">
                   <!-- Sidebar Toggle (Topbar) -->
                   <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
@@ -240,7 +185,7 @@
                   <!-- Topbar Search -->
                   <form class="d-none d-sm-inline-block form-inline mr-auto my-2 my-md-0 mw-100 navbar-search">
                      <div class="input-group">
-                        <input type="text" class="form-control bg-white border-0 small" placeholder="Search for Islamic lectures, Books & So Much More..." aria-label="Search" aria-describedby="basic-addon2">
+                        <input type="text" class="form-control bg-white border-0 small" placeholder="Search for Islamic Lectures,Books,Scholars & So Much More..." aria-label="Search" aria-describedby="basic-addon2">
                         <div class="input-group-append">
                            <button class="btn bg-white" type="button">
                            <i class="fas fa-search fa-sm"></i>
@@ -248,6 +193,8 @@
                         </div>
                      </div>
                   </form>
+
+                  
                   <!-- Topbar Navbar -->
                   <ul class="navbar-nav ml-auto">
                      <!-- Nav Item - Search Dropdown (Visible Only XS) -->
@@ -271,23 +218,19 @@
                      </li>
                      <!-- Nav Item - Alerts -->
                      <li class="nav-item no-arrow mx-1">
-                        <a class="nav-link" href="#">
-                                                    
-                           <span class="badge badge-danger">&nbsp; DONATE</span>
-                        </a>
-                        <!--<button type="button" class="btn btn-outline-success">DONATE</button>-->
-
-                        <!--<a href="#" target="_blank" class="btn"><div>Donate</div></a>-->
-
-                        <!--<button type="button" class="btn">DONATE</button>-->
+                        <a class="nav-link" href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
                      </li>
-                     <!--<li class="nav-item dropdown no-arrow mx-1">
+                     <li class="nav-item no-arrow mx-1">
+                        <a class="nav-link" href="#"><i class="fab fa-youtube fa-fw"></i></a>
+                     </li>
+                     <li class="nav-item no-arrow mx-1">
+                        <a class="nav-link" href="#"><i class="fab fa-twitter fa-fw"></i></a>
+                     </li>
+                     <li class="nav-item dropdown no-arrow mx-1">
                         <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           <i class="fas fa-bell fa-fw"></i>
-                           
-                           <span class="badge badge-danger badge-counter">8+</span>
+                           <i class="fas fa-handshake fa-fw"></i>
                         </a>
-                        
+                        <!-- Dropdown - Alerts -->
                         <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
                            <h6 class="dropdown-header">
                               Alerts
@@ -358,7 +301,7 @@
                            </a>
                            <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
                         </div>
-                     </li>-->
+                     </li>
                      <!-- Nav Item - User Information -->
                      <!--<li class="nav-item dropdown no-arrow">
                         <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -392,6 +335,7 @@
                      </li>-->
                   </ul>
                </nav>
+               <!-- End of Topbar -->
                <!----------- End of Topbar ------------->
 
 
@@ -1126,13 +1070,13 @@
             <footer class="sticky-footer">
             <section class="footer-list">
             <div class="container">
-            <div class="row mb-2">
+            <div class="row mb-1">
                <div class="col-lg-3 col-md-3">
                   <div class="footer-logo mb-0">
 
                      <a href="#"><img src="assets/img/logos/logo_footer.png" alt="Image" class="alignleft" style="margin-top: 5px; padding-right: 5px; border-right: 1px solid #4A4A4A; width: 40%; height: 15%;"></a>
 
-                     <p><strong>"Al Hudaah"</strong> translated as <strong>"right guidance"</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non est eu quam cursus pellentesque sed tristique ligula. Aenean risus eros, fringilla a fringilla ac, gravida et nulla. Pellentesque dignissim....<a href="#" style="color: #fff">Learn More</a></p>
+                     <p align="justify"><strong>Thurayya Islam Media</strong> started eight years ago (2013) with a group of young muslims who had a dream of using modern media channels to propagate Islamic knowledge and spread Dawah across the Islamic society in Uganda. This passion prompted....<a href="#" style="color: #fff">Learn More</a></p>
 
                   </div>             
                </div>
@@ -1153,15 +1097,15 @@
                   <ul>
                      <li><a href="#">Audio</a></li>
                      <li><a href="#">Video</a></li>
+                     <li><a href="#">Gallery</a></li>
                      <li><a href="#">Library</a></li>
                      <li><a href="#">Partners</a></li>
                      <li><a href="#">Scholars</a></li>
-                     <li><a href="#">Hot Topics</a></li>
                      <li><a href="#">Live Streaming</a></li>
                   </ul>
                </div>
                <div class="col-lg-2 col-md-2">
-                  <h6 class="mb-3">SCHOLARS</h6>
+                  <h6 class="mb-3">HOT TOPICS</h6>
                   <ul>
                      <li><a href="#">Enterprise</a></li>
                      <li><a href="#">Financial Services</a></li>
@@ -1175,12 +1119,12 @@
                <div class="col-lg-3 col-md-3">
                   <h6 class="mb-3">UPDATES</h6>
                   <div class=" mb-2 input-group">
-                     <input type="text" class="form-control" placeholder="Email Address...">
+                     <input type="text" class="form-control" placeholder="Subscribe for updates......">
                      <div class="input-group-append">
                         <button class="btn btn-primary" type="button"><i class="fas fa-arrow-right"></i></button>
                      </div>
                   </div>
-                  <medium>Subscribe to keep you updated on the latest Islamic teachings..</medium>
+                  <medium>Plot 2 Nasser Road, Printers Miracle Center, Room A-17 Basement Floor.</medium>
 
                   <div class="mb-3 mt-2">
                   <p class="mb-0"><a href="tel://0705111999" class="text-dark"><i class="fas fa-phone fa-fw"></i> +256 705 111 999</a></p>
@@ -1194,6 +1138,14 @@
 
                <div class="container my-auto" id="social_footer">
                   <div class="copyright text-center my-auto ">
+                            <ul>
+                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </li>
+                        </ul>
                      <span>Copyright &copy; 2022 All Rights Reserved by Thurayya Islam Media</span>
                   </div>
                </div>
