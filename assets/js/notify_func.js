@@ -3,8 +3,8 @@
          $.notify({
              // options
              icon: '',
-             title: "<a href=\"subs/policy.html\" target=\"_blank\"><h4>User Terms Of Use</h4>",
-             message: "<figure><img src=\"assets/img/others/policy_2.png\"></figure><p>Kindly read the terms of service before using the Thurayya Islam Media website.</a> "
+             title: "<a href=\"policy.html\" target=\"_blank\"><h4>User Terms Of Use</h4>",
+             message: "<figure><img src=\"assets/img/others/policy_2.png\"></figure><p>Kindly read the terms of service before using Thurayya Islam Media website.</a> "
          }, {
              // settings
              icon_type: 'image',

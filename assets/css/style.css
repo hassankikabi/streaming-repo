@@ -188,7 +188,7 @@
      -webkit-backdrop-filter: saturate(180%) blur(5px);
     backdrop-filter: saturate(180%) blur(5px);
 }
- .sidebar .nav-item .nav-link .fas {
+ .sidebar .nav-item .nav-link .fas .fab{
      color: #ffffff;
 }
  .sidebar .nav-item .nav-link span {
@@ -1818,7 +1818,7 @@
          margin: 4px !important;
     }
      .container {
-         max-width: 100%;
+         max-width: 120%;
     }
      .single-channel-nav {
          padding: 0 15px;
