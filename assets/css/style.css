@@ -73,18 +73,17 @@
 .carousel-login-card {
     padding: 11px 0;
 }
- .scroll-to-top {
-     background: rgba(52, 58, 64, 0.5) none repeat scroll 0 0;
-     border-radius: 70px !important;
-     bottom: 86px;
-     color: #fff;
-     display: none;
-     height: 50px;
-     line-height: 46px;
-     position: fixed;
-     right: 15px;
-     text-align: center;
-     width: 50px;
+.scroll-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+  width: 2.75rem;
+  height: 2.75rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(90, 92, 105, 0.5);
+  line-height: 46px;
 }
  .scroll-to-top:focus, .scroll-to-top:hover {
      color: white;
@@ -383,7 +382,7 @@
      color: #777;
 }
  footer.sticky-footer {
-     background-color: #131a22;
+     background:url("../img/sidebar/bg3.jpg");
      padding: 15px;
      margin-left: 225px;
 }
