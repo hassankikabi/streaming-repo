@@ -157,7 +157,7 @@
 }
  .sidebar {
      width: 90px !important;
-     background:url("../img/sidebar/bg2.jpg");
+     background:url("../img/sidebar/bg5.jpg");
      min-height: 100%;
      z-index: 9;
      padding: 10px;
@@ -382,7 +382,7 @@
      color: #777;
 }
  footer.sticky-footer {
-     background:url("../img/sidebar/bg3.jpg");
+     background:url("../img/sidebar/bg4.jpg");
      padding: 15px;
      margin-left: 225px;
 }
